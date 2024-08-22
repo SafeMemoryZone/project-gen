@@ -133,8 +133,7 @@ def write_readme(project_name, license, copyright_holder, project_desc):
             f.write(f'''
 ## License
 
-Copyright (c) {datetime.now().year} {copyright_holder}
-This project is licensed under the {license} license.
+Copyright (c) {datetime.now().year} {copyright_holder}. This project is licensed under the {license} license.
 ''')
 
 def write_build_system(project_name, build_system, language):
