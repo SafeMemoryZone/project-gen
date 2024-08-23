@@ -130,8 +130,7 @@ def write_readme(project_name, license, copyright_holder, project_desc):
 {project_desc}
 ''')
         if license:
-            f.write(f'''
-## License
+            f.write(f'''## License
 
 Copyright (c) {datetime.now().year} {copyright_holder}. This project is licensed under the {license} license.
 ''')
